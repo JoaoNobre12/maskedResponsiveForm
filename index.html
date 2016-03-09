@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>BanneroCity</title>
+
+    <meta name="viewport" content="width=device-width initial-scale=1"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="imgs/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/icons/favicon-16x16.png">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+    <script src="js/plugin/jquery-1.9.2.min.js"></script>
+    <script src="js/plugin/jquery-scrollto.js"></script>
+    <script src="js/plugin/jquery.maskedinput.min.js"></script>
+    <script src="js/structure.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/plugin/owl.carousel.min.js"></script>
+
+
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link href='https://fonts.googleapis.com/css?family=Hind:400,700,600' rel='stylesheet' type='text/css'>
+</head>
+<body onresize="canIresizeIt();">
+<header id="home">
+
+
+<nav id="menu">
+    <img src="imgs/icons/menu.png" alt="menuico" id="menu-ico">
+    <ul id="main-menu">
+        <li><a id="" class="active" href="#home">home</a></li>
+        <li><a href="#news">news</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="#about">about</a></li>
+
+    </ul>
+</nav>
+
+    <h1>BanneroCity - Your <span class="banner">banner</span> is here!</h1>
+
+    <h3>Make your Banner easily and quickly <span class="banner">here!</span></h3>
+    <div id="owl-demo" class="owl-carousel owl-theme">
+
+        <div class="item"><img src="imgs/slider/fullimage1.jpg" alt="The Last of us"></div>
+        <div class="item"><img src="imgs/slider/fullimage2.jpg" alt="GTA V"></div>
+        <div class="item"><img src="imgs/slider/fullimage3.jpg" alt="Mirror Edge"></div>
+        <div class="item"><img src="imgs/slider/fullimage4.jpg" alt="Mirror Edge"></div>
+        <div class="item"><img src="imgs/slider/fullimage5.jpg" alt="Mirror Edge"></div>
+        <div class="item"><img src="imgs/slider/fullimage6.jpg" alt="Mirror Edge"></div>
+        <div class="item"><img src="imgs/slider/fullimage7.jpg" alt="Mirror Edge"></div>
+
+    </div>
+</header>
+
+<section id="news" >
+    <h2 id="hnews"><span class="tarj"> </span>News</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, atque corporis dignissimos et fugiat fugit maiores maxime minima, minus molestiae necessitatibus officiis optio quasi quidem sapiente, sit! Labore, laboriosam.
+
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, atque corporis dignissimos et fugiat fugit maiores maxime minima, minus molestiae necessitatibus officiis optio quasi quidem sapiente, sit! Labore, laboriosam.
+
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, atque corporis dignissimos et fugiat fugit maiores maxime minima, minus molestiae necessitatibus officiis optio quasi quidem sapiente, sit! Labore, laboriosam.
+
+    </p>
+
+        <figure class="img-legen" style="">
+            <img src="imgs/content/92876863_d1.jpg" class="flyer" alt="flyer1">
+            <figcaption>
+                aqui é figcaption da img 1aqui é figcaption da img 1aqui é figcaption da img 1aqui é figcaption da img 1aqui é figcaption da img 1aqui é figcaption da img 1aqui é figcaption da img 1aqui é figcaption da img 1aqui é figcaption da img 1aqui é figcaption da img 1
+            </figcaption>
+        </figure>
+
+        <figure class="img-legen" >
+            <img src="imgs/content/92877002_d1.jpg" class="flyer" alt="flyer2">
+            <figcaption>
+                aqui é fogcaption da img2 aqui é fogcaption da img2 aqui é fogcaption da img2 aqui é fogcaption da img2 aqui é fogcaption da img2
+            </figcaption>
+        </figure>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, atque corporis dignissimos et fugiat fugit maiores maxime minima, minus molestiae necessitatibus officiis optio quasi quidem sapiente, sit! Labore, laboriosam.
+    </p>
+</section>
+
+<section id="contact">
+    <h2><span class="tarj"> </span>Contact us</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, atque corporis dignissimos et fugiat fugit maiores maxime minima, minus molestiae necessitatibus officiis optio quasi quidem sapiente, sit! Labore, laboriosam.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, atque corporis dignissimos et fugiat fugit maiores maxime minima, minus molestiae necessitatibus officiis optio quasi quidem sapiente, sit! Labore, laboriosam.
+
+    </p>
+
+        <form action="" name="oderform" id="form" oninput="">
+
+            <img id="logo" src="imgs/logo.png" alt="Bannerocity"/>
+            <br/>
+
+            <div class="align">
+                <label for="imessage" style="display: inline">Enter the Banner message </label>
+                <input type="text" maxlength="32" id="imessage" name="message"/>
+            </div>
+            <span id="imessage-help" class="text-help"></span>
+
+
+            <div class="align">
+                <label for="izip">Enter the ZIP code</label>
+                <input type="text" maxlength="5" id="izip" name="zip"/>
+            </div>
+            <span id="izip-help" class="text-help"></span>
+
+            <div class="align">
+                <label for="idate">Enter the date for the message to be shown:</label>
+                <input type="text" id="idate" value="" name="date" />
+            </div>
+            <span id="idate-help" class="text-help"></span>
+
+            <div class="align">
+                <label for="iname">Enter your name:</label>
+                <input type="text" maxlength="50" id="iname" name="name"/>
+            </div>
+            <span id="iname-help" class="text-help"></span>
+
+            <div class="align">
+                <label for="iphone">Enter your phone number:</label>
+                <input type="text" id="iphone" name="phone"/>
+            </div>
+            <span id="iphone-help" class="text-help"></span>
+
+            <div class="align">
+                <label for="iemail">Enter your e-mail:</label>
+                <input type="text" maxlength="50" id="iemail" name="email"/>
+            </div>
+            <span id="iemail-help" class="text-help"></span>
+            <br/>
+            <input id="btnsend" class="btn" type="button" value="send" />
+        </form>
+
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, atque corporis dignissimos et fugiat fugit maiores maxime minima, minus molestiae necessitatibus officiis optio quasi quidem sapiente, sit! Labore, laboriosam.
+
+    </p>
+</section>
+
+<section id="about">
+    <h2><span class="tarj"> </span>About us</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, atque corporis dignissimos et fugiat fugit maiores maxime minima, minus molestiae necessitatibus officiis optio quasi quidem sapiente, sit! Labore, laboriosam.
+
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, atque corporis dignissimos et fugiat fugit maiores maxime minima, minus molestiae necessitatibus officiis optio quasi quidem sapiente, sit! Labore, laboriosam.
+
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, atque corporis dignissimos et fugiat fugit maiores maxime minima, minus molestiae necessitatibus officiis optio quasi quidem sapiente, sit! Labore, laboriosam.
+
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, atque corporis dignissimos et fugiat fugit maiores maxime minima, minus molestiae necessitatibus officiis optio quasi quidem sapiente, sit! Labore, laboriosam.
+
+    </p>
+    <p>
+
+
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, atque corporis dignissimos et fugiat fugit maiores maxime minima, minus molestiae necessitatibus officiis optio quasi quidem sapiente, sit! Labore, laboriosam.
+
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, atque corporis dignissimos et fugiat fugit maiores maxime minima, minus molestiae necessitatibus officiis optio quasi quidem sapiente, sit! Labore, laboriosam.
+
+    </p>
+</section>
+
+</body>
+</html>

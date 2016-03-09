@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+html, body, *{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+p, figcaption{
+    font-family: 'Hind', sans-serif;
+}
+
+h2{
+    font-family: 'Hind 600', sans-serif;
+    position: relative;
+    text-indent:  10px;
+    background-color: #333;
+    color: white;
+
+    padding: 4px;
+}
+span.tarj{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 28px;
+    background-color: #7F7F7F;
+    //display: inline-block;
+}
+
+h1, h3{
+    color: white;
+    font-family: 'Hind 700', sans-serif;
+    text-indent: 8px;
+
+}
+/*header*/
+header#home{
+    background-color: #333;
+    width: 100%;
+    min-height: 100%;
+
+    border: 0;
+    margin-bottom: 4px;
+}
+/**content*/
+section,body{
+
+    background-color: #CCCCB8;
+}
+
+section{
+    padding-top: 48px;
+}
+
+.fixed{
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    width: 100%;
+
+}
+
+@media screen and (min-width: 800px) {
+
+    /*menu*/
+    nav#menu{
+        background: #333  url("../imgs/logmenu.png") no-repeat;
+        height: 48px;
+        margin-bottom: 16px;
+        min-width: 100%;
+    }
+
+
+    img#menu-ico{
+        display: none;
+    }
+    ul#main-menu {
+        background-color: #333;
+        position: absolute;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        left: 70px;
+    }
+
+    li {
+        float: left;
+        font-family: 'Hind 600', sans-serif;
+        text-transform: uppercase;
+    }
+
+    li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+
+
+
+    div.align {
+        margin-bottom: 2%;
+        font-family: Helvetica, sans-serif;
+        width: 60%;
+        position: relative;
+        display: inline-block;
+    }
+    span.text-help{
+        color: white;
+
+    }
+
+    form div.align input {
+        color: white;
+        position: absolute;
+        right: 0;
+        width: 300px;
+        padding: 8px;
+        font-family: Helvetica, sans-serif;
+        border-radius: 4px;
+        background-color: #995D5C;
+
+    }
+    form input.btn{
+        position: relative;
+        border-radius: 4px;
+        height: 30px;
+        width: 100px;
+        background-color: #995D5C;
+        color: white;
+        font-size: 16px;
+        margin-top: 8px;
+        cursor: pointer;
+        transition: .5s;
+        left: 50%;
+
+    }
+    form input.btn:hover{
+        background-color: rgba(155, 93, 92, 0.71);
+    }
+    form#form{
+        position: relative;
+        width: 90%;
+        border: 1px solid white;
+        left: 1%;
+
+    }
+
+    div.align label {
+
+    }
+
+    #owl-demo .item img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+
+    }
+    #owl-demo{
+        position:absolute;
+        bottom:0;
+    }
+    figure.img-legen {
+        position: relative;
+        margin: 2px;
+        width: 46%;
+        height: 46%;
+        display: inline-block;
+        left: 3.5%;
+    }
+    figure.img-legen img.flyer {
+        width: 100%;
+        height: 100%;
+    }
+
+    figure.img-legen figcaption {
+        position: absolute;
+        top:0;
+        background-color: rgba(0,0,0,.5);
+        color: #ffffff;
+        padding: 4px;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+}
